@@ -9,7 +9,7 @@ http://www.tooplate.com/view/2087-kalay
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400');
 
 body {
-  background: white;
+    background: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -68,11 +68,11 @@ p {
 }
 
 .bg-grey {
-  background: hsl(0, 0%, 100%) !important;
+  background: #2b2b2b !important;
 }
 
 .white-color {
-  color: #ffffff;
+  color: #f0f0f0;
 }
 
 
@@ -98,7 +98,7 @@ p {
 
 .section-btn:focus,
 .section-btn:hover {
-  background: #ff8800;
+  background: #ffffff;
   color: #000000;
 }
 
@@ -113,14 +113,14 @@ html{
 }
 
 a {
-  color: rgb(104, 104, 76);
+  color: #757557;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 
 a:hover, a:active, a:focus {
-  color: #ffffff;
+  color: #000000;
   outline: none;
 }
 
@@ -183,7 +183,7 @@ a:hover, a:active, a:focus {
 }
 
 .spinner:before {
-  
+  content: '';
   box-sizing: border-box;
   position: absolute;
   top: 50%;
@@ -193,12 +193,12 @@ a:hover, a:active, a:focus {
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 2px solid #505050;
+  border: 2px solid #454545;
   border-top-color: #ffffff;
   animation: spinner .9s linear infinite;
 }
 
-@-webkit-@keyframes spinner {
+@keyframes spinner {
   to {transform: rotate(360deg);}
 }
 
@@ -213,7 +213,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-  background: url(http://upakovano.ru/upload/iblock/2c9/php31X7Xr.jpg) 50% 0 repeat-y fixed;
+  background: url('https://img.p-advice.com/img/activities/735/how-do-cristiano-ronaldo-step-over.jpg') 50% 0 repeat-y fixed;
   background-size: cover;
   background-position: center center;
   display: -webkit-box;
@@ -247,13 +247,13 @@ a:hover, a:active, a:focus {
 }
 
 .service-thumb:hover {
-  background: rgb(255, 136, 0);
+  background: #2b2b2b;
   top: -5px;
 }
 
 .service-thumb:hover .fa,
 .service-thumb:hover h4 {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .service-thumb h4 {
@@ -261,7 +261,7 @@ a:hover, a:active, a:focus {
 }
 
 .service-thumb .fa {
-  color: rgb(255, 136, 0);
+  color: #7682cc;
   font-size: 62px;
   text-align: center;
   margin-top: 32px;
@@ -288,7 +288,7 @@ a:hover, a:active, a:focus {
 }
 
 .about-image-thumb .social-icon li a {
-  background: #ffffff;
+  background: #f0f0f0;
 }
 
 .about-thumb {
@@ -323,7 +323,7 @@ a:hover, a:active, a:focus {
 
 .work-thumb-overlay {
   position: absolute;
-  background: rgb(214, 129, 0);
+  background: rgba(100, 100, 100,0.8);
   border-radius: 5px;
   cursor: crosshair;
   opacity: 0;
@@ -361,7 +361,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact .form-control:focus {
-  border-bottom-color: #727272;
+  border-bottom-color: #999999;
 }
 
 #contact input {
@@ -378,7 +378,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact button#submit:hover {
-  background: rgb(214, 129, 0);
+  background: #7682cc;
   color: #ffffff;
 }
 
@@ -389,7 +389,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 footer {
-  background-image:linear-gradient(rgb(182, 118, 0),rgb(168, 90, 0));
+  background: gray;
   text-align: center;
   padding: 120px 0;
 }
